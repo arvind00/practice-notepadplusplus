@@ -1,0 +1,100 @@
+## Reference
+- Notepad++ official site: https://notepad-plus-plus.org/
+- Youtube Tuto by Amit: https://www.youtube.com/watch?v=IN98NLHnL30
+- Youtube Tuto by Joe James: https://www.youtube.com/watch?v=oUFQlLkBP8M
+
+## Github Repo
+- This tutorial assets can be found in this github repo: 
+https://github.com/arvind00/practice-notepadplusplus
+
+## Google Classroom
+- To test what you have learnt, check out this google classroom: 
+https://classroom.google.com/c/NTIyNjAzMTg1NTg0?cjc=i4ppsed
+
+## Document Operations
+- Open file					:	CTRL + O	
+- New Document				: 	CTRL + N
+- Save Document				: 	CTRL + S
+- Save All Documents		: 	CTRL + SHIFT + S
+- Switch To Prev Document	: 	CTRL + TAB
+- Undo						: 	CTRL + Z
+- Redo						: 	CTRL + Y
+- Rename File				:	ALT + F + R
+- Show In File Explorer		:	ALT + F + F + ENTER
+- Copy Full File Path		: 	ALT + E + Y + Enter
+- Copy Filename				:	ALT + E + Y + DOWN + Enter
+- Close File				:	CTRL + W
+- Open Recently Close File	:	CTRL + SHIFT + T
+- Switch To Next Document	: 	CTRL + PAGEDOWN
+- Switch To Prev Document	: 	CTRL + PAGEUP
+- Show List Of Documents	: 	ALT + W
+
+## Line operations
+- Duplicate A Line/Word		: 	CTRL + D
+- Swap Current With Above	:	CTRL + T
+- Copy Current Line			: 	CTRL + SHIFT + X
+- Move Current Line Up		: 	ALT + UP
+- Move Current Line Down	: 	ALT + DOWN
+- Delete/Cut Current Line	: 	CTRL + L
+- Insert A New Line Above	:	CTRL + ALT + ENTER
+- Insert A New Line Below	:	CTRL + ALT + SHIFT + ENTER
+- Multi-Line/Column Edit	:	ALT + SHIFT + UP/DOWN
+
+## Case conversion
+- Convert To Uppercase	:	CTRL + SHIFT + U
+- Convert To Lowercase	:	CTRL + U
+- Convert To Propercase	:	ALT + U
+
+============================== End of Part - 1 ==========================================================
+
+## Code editing
+- Go To Matching Brace					: 	CTRL + B
+- Select Content Inside Brace			: 	CTRL + ALT + B
+- Toggle Single line Comment			: 	CTRL + Q
+- Toggle Bookmark						: 	CTRL + F2
+- Go To Each Bookmark					: 	F2
+- Increase Font-Size					: 	CTRL + NUM+
+- Decrease Font-Size					: 	CTRL + NUM-
+- Reset To Original Font-Size			: 	CTRL + NUM/
+- Toggle Clipboard History				: 	ALT + E + H
+- Find Next Occurence Of Curent Word	:	CTRL + F3 
+- Find Prev Occurence Of Curent Word	:	CTRL + SHIFT + F3 
+
+## Search and Navigation
+- Open Search Dialog	: 	CTRL + F
+	- hint: 
+		- ALT + D (tryout the Find All In Current Document)
+		- F7 and UP/DOWN arrow and Enter and then ESC
+- Replace		: 	CTRL + H
+- Go To A Line	: 	CTRL + G
+
+## Plugins
+
+### File switcher
+Install the plugin: File Switcher
+To Navigate to any open document	: CTRL + P
+
+### QuickText
+Install the plugin: QuickText
+Apply Code Snippets			: CTRL + ALT + Z
+
+
+### NppExec
+Install this the plugin: NppExec
+To execute console commands from notepad++ directly
+
+#### Compile and run java program
+- once the above plugin is installed, in the toolbar click on the icon: Show NppExec Console
+- in the console type: echo $(PLUGINS_CONFIG_DIR)
+- edit file npes_saved.txt
+- add the below texts:
+::Java_Compile_Run
+npp_save
+cd $(CURRENT_DIRECTORY)
+javac $(FILE_NAME)
+java $(NAME_PART)
+- save it
+- Now press F6
+- Open a java program and then press F6 and select and run the script you have just prepared
+
+============================== End of Part - 2 ==========================================================
