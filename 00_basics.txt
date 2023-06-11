@@ -1,90 +1,135 @@
 ## Reference
+<section>
 - Notepad++ official site: https://notepad-plus-plus.org/
 - Youtube Tuto by Amit: https://www.youtube.com/watch?v=IN98NLHnL30
 - Youtube Tuto by Joe James: https://www.youtube.com/watch?v=oUFQlLkBP8M
+- Vim key notaions: https://vimdoc.sourceforge.net/htmldoc/intro.html#notation
+</section>
+
 
 ## Github Repo
+<section>
 - This tutorial assets can be found in this github repo: 
 https://github.com/arvind00/practice-notepadplusplus
+</section>
+
 
 ## Google Classroom
+<section>
 - To test what you have learnt, check out this google classroom: 
 https://classroom.google.com/c/NTIyNjAzMTg1NTg0?cjc=i4ppsed
+</section>
+
+
+## Conventions Followed
+<section>
+- C : CTRL
+- M : ALT or Meta Key
+- A : ALT or Meta Key
+- S : SHIFT
+- Key combination to be joined by -
+	- example: C-s is CTRL keypress followed by s
+- When you have CTRL, ALT and SHIFT
+</section>
+
 
 ## Document Operations
-- Open file					:	CTRL + O	
-- New Document				: 	CTRL + N
-- Save Document				: 	CTRL + S
-- Save All Documents		: 	CTRL + SHIFT + S
-- Switch To Prev Document	: 	CTRL + TAB
-- Undo						: 	CTRL + Z
-- Redo						: 	CTRL + Y
-- Rename File				:	ALT + F + R
-- Show In File Explorer		:	ALT + F + F + ENTER
-- Copy Full File Path		: 	ALT + E + Y + Enter
-- Copy Filename				:	ALT + E + Y + DOWN + Enter
-- Close File				:	CTRL + W
-- Open Recently Close File	:	CTRL + SHIFT + T
-- Switch To Next Document	: 	CTRL + PAGEDOWN
-- Switch To Prev Document	: 	CTRL + PAGEUP
-- Show List Of Documents	: 	ALT + W
+<section>
+- Open file									:	C-o
+- New Document								: 	C-n
+- Save Document								: 	C-s
+- Save All Documents						: 	C-S-s
+- Toggle Between Two Documents				: 	C-Tab
+- Undo										: 	C-z
+- Redo										: 	C-y
+- Rename File								:	A-f-r
+- Show In File Explorer						:	A-f-f-ENTER
+- Copy Full File Path						:  	A-e-y-ENTER
+- Copy Filename								:	A-e-y-DOWN-ENTER
+- Close File								:	C-w
+- Open Recently Close File					:	C-S-t
+- Switch To Next Document					: 	C-Pagedown
+- Switch To Prev Document					:   C-Pageup
+- Show List Of Documents					: 	A-w
+</section>
 
-## Line operations
-- Duplicate A Line/Word		: 	CTRL + D
-- Swap Current With Above	:	CTRL + T
-- Copy Current Line			: 	CTRL + SHIFT + X
-- Move Current Line Up		: 	ALT + UP
-- Move Current Line Down	: 	ALT + DOWN
-- Delete/Cut Current Line	: 	CTRL + L
-- Insert A New Line Above	:	CTRL + ALT + ENTER
-- Insert A New Line Below	:	CTRL + ALT + SHIFT + ENTER
-- Multi-Line/Column Edit	:	ALT + SHIFT + UP/DOWN
+
+## Line operations				
+<section>
+- Duplicate A Line/Word						: 	C-d
+- Swap/Transpose Current With Above			:	C-t
+- Copy Current Line							: 	C-S-x
+- Move Current Line Up						: 	A-UP
+- Move Current Line Down					: 	A-DOWN
+- Delete/Cut Current Line					: 	C-l
+- Insert A New Line Above					:	C-A-ENTER
+- Insert A New Line Below					:	C-A-S-ENTER
+- Multi-Line/Column Edit					:	A-S-UP/DOWN
+</section>
+
 
 ## Case conversion
-- Convert To Uppercase	:	CTRL + SHIFT + U
-- Convert To Lowercase	:	CTRL + U
-- Convert To Propercase	:	ALT + U
+<section>
+- Convert To Uppercase						:	CTRL + SHIFT + U
+- Convert To Lowercase						:	CTRL + U
+- Convert To Propercase						:	ALT + U
+</section>
 
-============================== End of Part - 1 ==========================================================
 
 ## Code editing
-- Go To Matching Brace					: 	CTRL + B
-- Select Content Inside Brace			: 	CTRL + ALT + B
-- Toggle Single line Comment			: 	CTRL + Q
-- Toggle Bookmark						: 	CTRL + F2
-- Go To Each Bookmark					: 	F2
-- Increase Font-Size					: 	CTRL + NUM+
-- Decrease Font-Size					: 	CTRL + NUM-
-- Reset To Original Font-Size			: 	CTRL + NUM/
-- Toggle Clipboard History				: 	ALT + E + H
-- Find Next Occurence Of Curent Word	:	CTRL + F3 
-- Find Prev Occurence Of Curent Word	:	CTRL + SHIFT + F3 
+<section>
+- Go To Matching Brace						: 	C-b
+- Select Content Inside Brace				: 	C-A-b
+- Toggle Single line Comment				: 	C-q
+- Toggle Bookmark							: 	C-F2
+- Go To Each Bookmark						: 	F2
+- Increase Font-Size						: 	Numpad+
+- Decrease Font-Size						: 	Numpad-
+- Reset To Original Font-Size				: 	Numpad/
+- Toggle Clipboard History					: 	A-e-h
+- Find Next Occurence Of Curent Word		:	C-F3
+- Find Prev Occurence Of Curent Word		:	C-S-F3 
+- Delete word forward						:	C-DELETE
+- Delete word backward						:	C-BACKSPACE
+- Fold all									:	A-0
+- Unfold all								:	A-S-0
+- Fold current region						:	C-A-f
+- Unfold current region						:	C-A-S-f
+</section>
 
 ## Search and Navigation
-- Open Search Dialog	: 	CTRL + F
-	- hint: 
-		- ALT + D (tryout the Find All In Current Document)
-		- F7 and UP/DOWN arrow and Enter and then ESC
-- Replace		: 	CTRL + H
-- Go To A Line	: 	CTRL + G
+<section>
+- Open Search Dialog						: 	C-f
+- ALT + D (tryout the Find All In Current Document)
+- F7 and UP/DOWN arrow and Enter and then ESC
+- Replace									: 	C-h
+- Go To A Line								: 	C-g
+</section>
+
 
 ## Plugins
-
+<section>
 ### File switcher
+<section>
 Install the plugin: File Switcher
-To Navigate to any open document	: CTRL + P
+To Navigate to any open document			: C-p
+</section>
 
 ### QuickText
+<section>
 Install the plugin: QuickText
-Apply Code Snippets			: CTRL + ALT + Z
-
+Apply Code Snippets							: C-A-z
+</section>
 
 ### NppExec
+<section>
 Install this the plugin: NppExec
 To execute console commands from notepad++ directly
+</section>
 
 #### Compile and run java program
-- once the above plugin is installed, in the toolbar click on the icon: Show NppExec Console
+<section>
+- once NppExec plugin is installed, in the toolbar click on the icon: Show NppExec Console
 - in the console type: echo $(PLUGINS_CONFIG_DIR)
 - edit file npes_saved.txt
 - add the below texts:
@@ -96,5 +141,6 @@ java $(NAME_PART)
 - save it
 - Now press F6
 - Open a java program and then press F6 and select and run the script you have just prepared
+</section>
 
-============================== End of Part - 2 ==========================================================
+</section>
