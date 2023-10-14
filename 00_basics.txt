@@ -4,6 +4,8 @@
 - Youtube Tuto by Amit: https://www.youtube.com/watch?v=IN98NLHnL30
 - Youtube Tuto by Joe James: https://www.youtube.com/watch?v=oUFQlLkBP8M
 - Vim key notaions: https://vimdoc.sourceforge.net/htmldoc/intro.html#notation
+- Emmet Plugin installation: https://community.notepad-plus-plus.org/topic/17366/how-to-install-emmet-plugin/2x
+- Emmet Plugin download link: http://download.emmet.io/npp/emmet-npp.zip
 </section>
 
 
@@ -29,7 +31,7 @@ https://classroom.google.com/c/NTIyNjAzMTg1NTg0?cjc=i4ppsed
 - S : SHIFT
 - Key combination to be joined by -
 	- example: C-s is CTRL keypress followed by s
-- When you have CTRL, ALT and SHIFT
+- When you have CTRL, ALT and SHIFT, we will C-A-S order 
 </section>
 
 
@@ -70,8 +72,8 @@ https://classroom.google.com/c/NTIyNjAzMTg1NTg0?cjc=i4ppsed
 
 ## Case conversion
 <section>
-- Convert To Uppercase						:	CTRL + SHIFT + U
 - Convert To Lowercase						:	CTRL + U
+- Convert To Uppercase						:	CTRL + SHIFT + U
 - Convert To Propercase						:	ALT + U
 </section>
 
@@ -109,28 +111,60 @@ https://classroom.google.com/c/NTIyNjAzMTg1NTg0?cjc=i4ppsed
 
 ## Plugins
 <section>
-### File switcher
+### File switcher | Helps you find your file from a list of opened files
 <section>
 Install the plugin: File Switcher
 To Navigate to any open document			: C-p
 </section>
 
-### QuickText
+### QuickText | Create your own code snippets
 <section>
 Install the plugin: QuickText
-Apply Code Snippets							: C-A-z
+- To see the list of snippets				: Plugins > QuickText > Open Snips File
+- To configure shortcut to apply the snippet: 
+	- Settings > Shorcut Mapper > Plugin Commands | search with Quick and update bindings for {Replace Snip}
+	- I have binded C-A-z
 </section>
 
-### NppExec
+### Emmet | helps you write html/css quickly
+<section>
+- download emmet from http://download.emmet.io/npp/emmet-npp.zip
+- extract the zip and you should get the below Content
+emmet-npp
+│   EmmetNPP.dll
+│
+└───EmmetNPP
+    │   editor.js
+    │   npp_emmet.py
+    │   PyV8.py
+    │   _PyV8.pyd
+    │
+    └───emmet
+            context.py
+            emmet-app.js
+            file.py
+            python-wrapper.js
+            pyv8loader.py
+            semver.py
+            snippets.json
+            __init__.py
+- Move the EmmetNPP.dll inside of EmmetNPP
+- Now move/copy the EmmetNPP folder into the plugins folder(Plugin>Open Plugins Folder)
+- Restart notepad++
+- Now you should have Plugins>Emmet
+</section>
+
+### NppExec | Execute console commands from notepad++ directly
 <section>
 Install this the plugin: NppExec
-To execute console commands from notepad++ directly
+
 </section>
 
 #### Compile and run java program
 <section>
 - once NppExec plugin is installed, in the toolbar click on the icon: Show NppExec Console
 - in the console type: echo $(PLUGINS_CONFIG_DIR)
+- using file explorer navigate to the directory above
 - edit file npes_saved.txt
 - add the below texts:
 ::Java_Compile_Run
@@ -139,7 +173,6 @@ cd $(CURRENT_DIRECTORY)
 javac $(FILE_NAME)
 java $(NAME_PART)
 - save it
-- Now press F6
 - Open a java program and then press F6 and select and run the script you have just prepared
 </section>
 
